@@ -1,12 +1,16 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    background-color: rgb(243, 238, 231);
+    
+    }
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+    .title{
+        color:rgb(238, 138, 235);
+        font-style: italic;
+        text-decoration: underline;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    .trash {
+        color: red;
+    }
